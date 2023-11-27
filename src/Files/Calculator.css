@@ -1,0 +1,60 @@
+
+.calci{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 10px;
+    border-radius: 50px;
+    border: 5px rgb(107, 9, 107) solid;
+}
+.output{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+    border: none;
+    border-bottom: 5px grey solid;
+    padding-bottom: 10px;
+}
+input{
+    text-align: right;
+}
+.trio{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.quart{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+button{
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.77);
+    color: white;
+}
+.number_pannel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.typed,.typing{
+    height: 30px;
+    padding: 5px 0px;
+    font-weight: 600;
+}
+.typed{
+    color: grey;
+    font-size: 20px;
+}
+.typing{
+    color: black;
+    font-size: 25px;
+}
+#symbol{
+    background-color: rgb(142, 13, 140);
+}
